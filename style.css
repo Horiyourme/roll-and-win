@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.container{
+    padding-top: 20px;
+    width: 500px;
+    height: 300px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow:  10px 5px  10px rgba(74, 74, 75, 0.7);
+
+}
+.display-container{
+    background-color: silver;
+    color: black;
+    width: 300px;
+    height: 140px;
+    align-items: center;
+    margin-left: 100px;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 1px  10px rgba(167, 165, 165, 0.7);
+}
+.display{
+    font-size: 100px;
+    font-family: 'ds-digital';
+}
+.rollBtn{
+    font-size: 20px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    margin: 20px;
+}
